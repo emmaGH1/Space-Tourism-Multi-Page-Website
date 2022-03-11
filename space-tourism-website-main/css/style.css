@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("/assets/home/background-home-mobile.jpg");
+    color: red;
+}

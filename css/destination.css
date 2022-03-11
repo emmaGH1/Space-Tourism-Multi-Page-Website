@@ -1,0 +1,79 @@
+body {
+    background: url("../assets/destination/background-destination-mobile.jpg") fixed;
+    background-size: cover;
+}
+
+.content {
+    text-align: center;
+}
+
+.planet-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    top: 37vh;
+}
+
+.list-item {
+    
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+    opacity: 0.85rem;
+    font-family: 2rem;
+    opacity: 0.8;
+    padding: 2rem;
+
+}
+
+
+
+.moon-img, .mars-img, .europa-img, .titan-img {
+    margin-top: 2rem;
+    max-width: 60%;
+}
+
+.xxl {
+    margin-top: 7rem;
+}
+
+.moon-content,
+.mars-content,
+.europa-content,
+.titan-content {
+    display: none;
+}
+
+.text-content {
+    margin: 1.1rem;
+}
+
+.line-rule {
+ width: 35rem;
+ margin-left: 2rem;
+ opacity: 0.3;
+ margin-top: 3rem;
+ margin-bottom: 3rem;
+}
+
+.footer-detail {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    padding-bottom: 2rem;
+}
+
+.xl {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+.nl {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.avg-dist{
+    margin-bottom: 2rem;
+}
